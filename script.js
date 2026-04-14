@@ -1,3 +1,7 @@
+function darkmode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
 let slideIndex = 0;
 showSlides();
 
