@@ -87,7 +87,7 @@ button {
   color: black;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
@@ -114,4 +114,8 @@ button {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.hideshow-container, .toggleshow-container {
+   display: flex;
+   justify-content: center;
 }
