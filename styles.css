@@ -23,6 +23,7 @@ body {
 
 .navbar a:hover {
    background-color: orange;
+   transform: scale(1.3)
 }
 
 .navbar li {
@@ -69,7 +70,9 @@ button {
 }
 
 .mySlides {
-  display: none;
+  display: flex;
+  height:400px;
+  width:450px;
 }
 
 
@@ -118,4 +121,16 @@ button {
 .hideshow-container, .toggleshow-container {
    display: flex;
    justify-content: center;
+}
+.shoes-container {
+   display: flex;
+   justify-content: center;
+   flex-direction: row-reverse;
+}
+.helldivers-container {
+   display:flex;
+   justify-content: center;
+   height: 300px;
+   width:100%;
+   object-fit: cover;
 }
