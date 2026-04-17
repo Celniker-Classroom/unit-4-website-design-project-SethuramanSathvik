@@ -19,6 +19,7 @@ body {
    padding: 15px;
    display: block;
    text-align: center;
+   transition: transform 0.4s ease-in-out;
 }
 
 .navbar a:hover {
