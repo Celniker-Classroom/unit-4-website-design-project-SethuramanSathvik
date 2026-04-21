@@ -1,5 +1,5 @@
 body {
-   margin: 0px;
+   font-family: 'Times New Roman';
 }
 
 
@@ -32,13 +32,18 @@ body {
 }
 
 
-p, ol, h1, h2, h3, h4, h5, h6 {
+p, ol, h1, h2, h3, h4, h5, h6, ul {
+   font-family: 'Lucida Sans';
    text-align: center;
+   text-decoration:none;
    background-color: orange;
    margin-right:4in;
    margin-left:4in;
 }
 
+ .dark-mode p, .dark-mode ol, .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6, .dark-mode ul {
+   background-color: black;
+}
 
 
 table, th, td {
@@ -134,4 +139,11 @@ button {
    height: 300px;
    width:100%;
    object-fit: cover;
+}
+.mainparts-container {
+   display: flex;
+   justify-content: center;
+   flex-direction: row-reverse;
+   height: 300px;
+   width: 100%
 }
